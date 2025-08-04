@@ -265,7 +265,7 @@ interface Config {
   port?: number;
 }
 
-const Conf: Config = { host: "localhost" };
+const Conf: Config = { host: "localhost" , port: 9000};
 console.log(Conf);
 
 // 18. Tuple

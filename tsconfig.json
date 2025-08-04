@@ -21,9 +21,7 @@
     "experimentalDecorators": true,  //Active les décorateurs
 
     // Génère les fichiers .d.ts pour les types
-    "declaration": true,
-
-
+    // "declaration": true,
 
     // Ne compile pas si une erreur est détectée
     "noEmitOnError": true,
@@ -49,13 +47,11 @@
     // Spécifie le format de sortie JS
     "lib": ["ES2020", "DOM"],
 
-    "useDefineForClassFields": false,   // Pour compatibilité avec @decorator
+    "useDefineForClassFields": false   // Pour compatibilité avec @decorator
   },
 
   // Fichiers inclus dans la compilation
-"include": ["TABLE2/**/*.ts", "TABLE3/**/*.ts"],
+"include": ["./TABLE1/Test.ts"],
   // Fichiers ou dossiers à exclure
-  "exclude": ["node_modules", "dist"],
-  
+  "exclude": ["node_modules", "dist"]
 }
- 
