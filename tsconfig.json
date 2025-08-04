@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    // Emplacement de sortie du JS compilé
+    "outDir": "./dist", // clé de destination
+
+    // Où se trouvent les fichiers source
+    "rootDir": ".",
+    // Cible JavaScript : ici ES2020
+    "target": "ES2020",
+
+    // Module système à utiliser
+    "module": "commonjs",
+
+    // Active les modules ES dans Node.js
+    "moduleResolution": "node",
+
+    // Active strict typing (fortement recommandé)
+    "strict": true,
+
+    // Autorise les décorateurs (utile avec Angular/NestJS)
+    "experimentalDecorators": true,  //Active les décorateurs
+
+    // Génère les fichiers .d.ts pour les types
+    "declaration": true,
+
+    // Active les fichiers source map pour le debug
+    "sourceMap": true,
+
+    // Ne compile pas si une erreur est détectée
+    "noEmitOnError": true,
+
+    // Vérifie l’utilisation de variables non initialisées
+    "noUnusedLocals": true,
+
+    // Interdit les variables non utilisées
+    "noUnusedParameters": true,
+
+    // Interdit les `any` implicites
+    "noImplicitAny": true,
+
+    // Ne pas autoriser les this implicites
+    "noImplicitThis": true,
+
+    // Autorise les imports de fichiers JSON
+    "resolveJsonModule": true,
+
+    // Active les modules ES6 dans l’import
+    "esModuleInterop": true,
+
+    // Spécifie le format de sortie JS
+    "lib": ["ES2020", "DOM"],
+
+    "useDefineForClassFields": false,   // Pour compatibilité avec @decorator
+  },
+
+  // Fichiers inclus dans la compilation
+"include": ["TABLE2/**/*.ts", "TABLE3/**/*.ts"],
+  // Fichiers ou dossiers à exclure
+  "exclude": ["node_modules", "dist"],
+  
+}
+ 
