@@ -23,8 +23,7 @@
     // Génère les fichiers .d.ts pour les types
     "declaration": true,
 
-    // Active les fichiers source map pour le debug
-    "sourceMap": true,
+
 
     // Ne compile pas si une erreur est détectée
     "noEmitOnError": true,

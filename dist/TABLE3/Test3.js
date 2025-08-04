@@ -145,4 +145,3 @@ function getUserName() {
     return "Alice";
 }
 console.log(getUserName()); // Résultat : Alice
-//# sourceMappingURL=Test3.js.map

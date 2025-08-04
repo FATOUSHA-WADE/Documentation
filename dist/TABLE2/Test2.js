@@ -151,4 +151,3 @@ for (const [nom, email] of contacts) {
 // 👉 Résultat console:
 // Alice : alice@example.com
 // Bob : bob@example.com
-//# sourceMappingURL=Test2.js.map

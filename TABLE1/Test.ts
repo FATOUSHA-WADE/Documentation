@@ -1,7 +1,7 @@
 // 1. Constructor, méthode, this
 // Utilisation du constructeur, des méthodes et du mot-clé this.
 
-class Person {
+class Persons {
   name: string;
 
   constructor(name: string) {
@@ -13,7 +13,7 @@ class Person {
   }
 }
 
-const p1 = new Person("Alice");
+const p1 = new Persons("Alice");
 p1.greet(); // Résultat : Hello, my name is Alice
 
 // 2. Constructeur privé
@@ -52,9 +52,9 @@ class Animal1 {
   }
 }
 
-const a1 = new Animal1("Dog");
-console.log(a1.name); // Résultat : Dog
-console.log(a1.getAge()); // Résultat : 5
+const a01 = new Animal1("Dog");
+console.log(a01.name); // Résultat : Dog
+console.log(a01.getAge()); // Résultat : 5
 
 // 4. Interface et classe concrète
 // Implémentation d'une interface dans une classe concrète.
@@ -63,7 +63,7 @@ interface Shape {
   getArea(): number;
 }
 
-class Cercle implements Shape {
+class Circle implements Shape {
   constructor(private radius: number) {}
 
   getArea(): number {
@@ -71,7 +71,7 @@ class Cercle implements Shape {
   }
 }
 
-const c1 = new Cercle(3);
+const c1 = new Circle(3);
 console.log(c1.getArea()); // Résultat : 28.27...
 
 // 5. Initialisation courte dans le constructeur
@@ -271,8 +271,8 @@ console.log(Conf);
 // 18. Tuple
 // Tableau à longueur et types fixes.
 
-let personne: [string, number] = ["Alice", 30];
-console.log(personne); // Résultat : ["Alice", 30]
+let personne1: [string, number] = ["Alice", 30];
+console.log(personne1); // Résultat : ["Alice", 30]
 
 // 19. Literal
 // Spécifie des valeurs précises possibles.
